@@ -1,6 +1,8 @@
 import sys
 import functools
 
+print(sys.version, sys.platform)
+
 
 def show_size(x, level=0):
 
@@ -57,4 +59,5 @@ for i in sizes:
 
 print(f'max = {max(mem)}, min = {min(mem)}, avg = {round(sum(mem) / len(mem))}')
 
+# 3.8.5 (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)] win32
 # max = 308, min = 304, avg = 308
